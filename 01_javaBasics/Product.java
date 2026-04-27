@@ -9,7 +9,7 @@ public class Product {
         int product = a*b;
         System.out.println(product);
 
-        // area of circle
+        // area of circle :-
         float radius = sc.nextFloat();
         float area = 3.14F * radius*radius ;
         System.out.println(area);
