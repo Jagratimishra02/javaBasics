@@ -4,3 +4,18 @@ public class boilerplate {
     }
 }
 // boilerplate code
+
+
+
+// ____________________________________comments in java __________________________________________________________________
+
+
+// 1. single line comment 
+
+/* 2. multi line comment
+
+*
+**
+***
+
+*/
