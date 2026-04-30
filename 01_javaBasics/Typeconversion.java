@@ -52,7 +52,8 @@ public class Typeconversion {
     float e = 3.25F;
     long f = 4L;
     double g = 30;
-    double ans = (i+e+f+g);  // char Z = (int)(Y-X);   // X,Y converts to int by type promotion & int cannot be converted into char(conversion is possible but 
+    double ans = (i+e+f+g);  
+    // char Z = (int)(Y-X);   // X,Y converts to int by type promotion & int cannot be converted into char(conversion is possible but 
                             //  only by type promotion)
     System.out.println(ans);
 
