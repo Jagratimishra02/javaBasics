@@ -25,5 +25,9 @@ _________________ types of operator _____________________________________
 
 // Binary ( minimum 2 operands) =>   + , - , * , / , %
 
-// Urnary oprator (unit operand) => ++ , --
-    
+// Unary oprator (unit operand) => ++ , --
+     
+     ++a =>  pre increment 
+     --a =>  pre decrement
+     a++ =>  post increment
+     a-- =>  post decrement 
