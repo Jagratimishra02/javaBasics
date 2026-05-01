@@ -7,6 +7,6 @@ public class LogicalOperators {
 
         System.out.println( a>b || a==b);      // logical OR => if one condition is true then o/p is true
 
-        System.out.println!(a<b);              // logical not => reverse / toggle the o/p , true becomes false ,false become true  
+        System.out.println(!(a<b));              // logical not => reverse / toggle the o/p , true becomes false ,false become  
     }
 }

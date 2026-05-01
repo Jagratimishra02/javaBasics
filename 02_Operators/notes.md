@@ -41,3 +41,18 @@ _________________ types of operator _____________________________________
          <    less than
          <=   lessthan equalto
          >=    greaterthan equalto
+
+
+// 3. Logical operators
+          
+          &&  => logical and 
+          ||  => logical or
+          !   => logical not
+
+// 4. Assignment operator
+       
+      //   +=  =>   a += 2
+      //   -=  =>   a -= 3
+      //   *=  =>   a *= 2
+      //   /=  =>   a /= 5
+
