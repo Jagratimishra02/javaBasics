@@ -37,7 +37,7 @@ _________________ types of operator _____________________________________
          
          ==   equal to
          !=   inequality (not equalto)
-         >
-         <
-         <=
-         >=
+         >    greater than
+         <    less than
+         <=   lessthan equalto
+         >=    greaterthan equalto

@@ -1,5 +1,5 @@
 import java.util.*;
-public class UrnaryOperators {
+public class UnaryOperators {
  public static void main(String[] args) {
        int a = 10;
        int b = ++a;               // pre increment 
