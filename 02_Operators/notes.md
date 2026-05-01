@@ -21,13 +21,23 @@ _________________ types of operator _____________________________________
    
    
    
-// Arithmatic operators
+// 1.Arithmatic operators
 
-// Binary ( minimum 2 operands) =>   + , - , * , / , %
+          // Binary ( minimum 2 operands) =>   + , - , * , / , %
 
-// Unary oprator (unit operand) => ++ , --
+          // Unary oprator (unit operand) => ++ , --
      
-     ++a =>  pre increment 
-     --a =>  pre decrement
-     a++ =>  post increment
-     a-- =>  post decrement 
+             ++a =>  pre increment 
+             --a =>  pre decrement
+             a++ =>  post increment
+             a-- =>  post decrement 
+    
+
+// 2. Relational operators
+         
+         ==   equal to
+         !=   inequality (not equalto)
+         >
+         <
+         <=
+         >=
