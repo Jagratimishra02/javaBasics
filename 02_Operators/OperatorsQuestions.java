@@ -70,7 +70,16 @@ public class OperatorsQuestions {
       int x = 10, y = 5;
       int exp1 = (y * (x / y + x / y));
       int exp2 = (y * x / y + y * x / y);
-      System.out.println(exp1);
-      System.out.println(exp2);
+      System.out.println(exp1);   // output 20
+      System.out.println(exp2);    // output 20
    }
 }
+
+
+// operator precedence 
+// 1. brackets
+// 2. *  %  /  if both comes together solve right to left 
+// 3. + - 
+
+
+
