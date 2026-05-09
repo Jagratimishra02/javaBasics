@@ -6,5 +6,9 @@ public class Calculator {
         int a = sc.nextInt();
         System.out.println("Enter a number b :");
         int b = sc.nextInt();
+        System.out.println("Enter Operator :");
+        char operator = sc.next().charAt(0);
+        
+
     }
 }
