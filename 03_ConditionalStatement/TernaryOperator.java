@@ -1,3 +1,4 @@
+// TERNARY OPERATORS
 import java.util.*;
 public class TernaryOperator {
     public static void main(String[] args) {
