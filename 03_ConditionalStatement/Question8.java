@@ -21,7 +21,7 @@ public class Question8 {
         case 7 : System.out.println("saturday");
             break;
       
-        default:
+        default: System.out.println("enter a valid number between (1-7)");
             break;
       }
     }
