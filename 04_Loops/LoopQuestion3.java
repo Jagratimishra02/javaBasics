@@ -1,3 +1,4 @@
+// print the square 
 public class LoopQuestion3 {
     public static void main(String[] args) {
 
