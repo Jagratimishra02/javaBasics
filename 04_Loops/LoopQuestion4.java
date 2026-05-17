@@ -9,7 +9,7 @@ public class LoopQuestion4 {
        while ( n < 0) {
        int lastDigit = n % 10;
        System.out.println(lastDigit + " ");
-        n = n/10; // n/=10
+        n = n/10; // n/=10 ;
        }
     }
 }
