@@ -1,4 +1,4 @@
-public class LoopsQuestion3 {
+public class LoopQuestion3 {
     public static void main(String[] args) {
 
     // __________________ by using for loop __________
