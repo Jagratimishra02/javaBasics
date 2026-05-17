@@ -5,11 +5,18 @@
 
 public class LoopQuestion4 {
     public static void main(String[] args) {
-       int n = 021204 ;
-       while ( n < 0) {
-       int lastDigit = n % 10;
-       System.out.println(lastDigit + " ");
-        n = n/10; // n/=10 ;
-       }
+    //    int n = 21204 ;
+    //    while ( n > 0) {
+    //    int lastDigit = n % 10;
+    //    System.out.print(lastDigit);
+    //     n = n/10; // n/=10 ;
+    //    }
+
+
+    // by using for loop 
+          for (int n = 21204 ; n > 0; n = n/10) {
+            int lastdigit = n%10;
+            System.out.print(lastdigit);
+          }
     }
 }
