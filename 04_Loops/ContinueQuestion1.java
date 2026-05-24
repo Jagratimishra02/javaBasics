@@ -1,3 +1,4 @@
+// didplay all numbers entered by user except the multiple of 10
 import java.util.*;
 public class ContinueQuestion1 {
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class ContinueQuestion1 {
         if (number%10==0) {
             continue;
         }
-        System.out.println(number);
+        System.out.println("Your number was :" + number);
          } while(true);
         
     }
