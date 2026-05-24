@@ -1,4 +1,4 @@
-
+// keep entering input till user enters multiple of 10
 import java.util.*;
 public class BreakQuestion {
     public static void main(String[] args) {
