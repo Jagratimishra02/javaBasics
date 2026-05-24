@@ -1,6 +1,6 @@
 // check if the number is prime 
 import java.util.*;
-public class ContinueQuestion2 {
+public class LoopQuestion6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter ur number:");
