@@ -14,9 +14,14 @@ public class ImpQuestion1 {
                 evensum += number;
             } else {
                 oddsum += number;
-            } 
-            System.out.println("do u want to continue if yes enter 1 else enter 0");
-            choice = sc.nextInt();
+            } do {
+                 System.out.println("do u want to continue if yes enter 1 else enter 0");
+                 choice = sc.nextInt();
+                 if (choice != 0 && choice != 1) {
+                    System.out.println("invalid number! Enter valid number : 0 or 1");
+                 }
+            } while (choice != 0 && choice != 1);
+           
         } while (choice == 1);
         System.out.println("Sum of even numbers : " + evensum);
         System.out.println("Sum of odd numbers : " + oddsum);
