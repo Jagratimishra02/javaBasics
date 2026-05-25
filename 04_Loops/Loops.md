@@ -68,3 +68,37 @@ public class ImpQuestion1 {
            System.out.println("factorial of " + num + " is " + fact);
         }
     }
+
+     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ # Question 4 : Write a program to print the multiplication table of a number N, entered by the user.
+     
+        import java.util.*;
+        public class TableQuestion {
+           public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
+          System.out.println("enter your number");
+          int num = sc.nextInt();
+          int mul  ;
+           for (int i = 1 ; i <= 10 ; i++ ){
+             mul = num * i ;
+             System.out.println(num + "*" + i + "=" + mul);
+          }
+    
+      }
+   }
+
+# Question 5 :What is wrong in the following program?
+   
+   public class Solution {
+   public static void main(String args[]) {
+    for(int i = 0; i <= 5; i++ ) {
+      System.out.println("i = " + i );
+    }
+      System.out.println("i after the loop = " + i );              // this line will show error i is not available outside scope
+     }
+ }
+
+ 
+
+ # ans :- i can not be declared outside 
