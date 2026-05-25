@@ -1,0 +1,24 @@
+//Question 2 : Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+import java.util.*;
+public class ImpQuestion1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number ;
+        int choice;
+        int oddsum = 0;
+        int evensum = 0;
+        do {
+            System.out.println("Enter your number : ");
+            number = sc.nextInt();
+            if (number%2 ==0) {
+                evensum += number;
+            } else {
+                oddsum += number;
+            } 
+            System.out.println("do u want to continue if yes enter 1 else enter 0");
+            choice = sc.nextInt();
+        } while (choice == 1);
+        System.out.println("Sum of even numbers : " + evensum);
+        System.out.println("Sum of odd numbers : " + oddsum);
+    }
+}
