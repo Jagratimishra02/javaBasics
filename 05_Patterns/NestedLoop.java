@@ -5,6 +5,7 @@ public class NestedLoop {
             for(int star=1; star <= line; star++){
                 System.out.print("*");
             }
+            System.out.println();  // for moving to next line
         }
     }
 }
