@@ -19,6 +19,6 @@ public class FunctionBasics {
         int a = sc.nextInt();
         int b = sc.nextInt();
     printHelloWorld();
-    Calculatesum(a,b);
+    Calculatesum(a,b);             // arguments or actual parameters
    } 
 }
