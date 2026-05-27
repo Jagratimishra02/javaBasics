@@ -5,6 +5,9 @@ public class FunctionBasics {
         System.out.println("hello world");
         System.out.println("hello world");
     }
+    
+    public static void Calculate
+
     public static void main(String[] args) {
     printHelloWorld();
    } 
