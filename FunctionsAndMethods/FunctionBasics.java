@@ -1,5 +1,5 @@
 // new function
-// PARAMETERS:-the values which are passed in parathesis of function is known as parameters or formal parameters. 
+// PARAMETERS:-the values which are passed in parathesis(or defination) of function is known as parameters or formal parameters. 
 // eg:- public static int Calculatesum(int num1 ,int num2)  , num1 & num2 are parameters.
 
 // ARGUMENTS:-the values which are called or passes in a function is called arguments or actual parameters.
