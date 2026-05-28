@@ -1,4 +1,4 @@
-// factorial 
+// factorial of any number by making any using other function.
 public class Factorial {
     public static int factorial(int n){
         int f = 1;
