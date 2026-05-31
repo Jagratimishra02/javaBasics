@@ -11,7 +11,7 @@ public class PrimeNumCheck {
     }
     public static void main(String[] args) {
        System.out.println(isPrime(2));
-       System.out.println(isPrime(2));
-       System.out.println(isPrime(2));
+       System.out.println(isPrime(8));
+       System.out.println(isPrime(7));
     }
 }
