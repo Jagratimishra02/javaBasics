@@ -1,3 +1,4 @@
+import java.util.*;
 public class PrimeNumCheck {
     // public static boolean isPrime(int n){
     //     Boolean isPrime = true;
@@ -15,12 +16,13 @@ public class PrimeNumCheck {
         if(n == 2){
          return true ;
         }
-        Boolean isPrime = true;
-        for (int i = 2 ; i <= math.sqrt(n);i++){
+        for (int i = 2 ; i <= Math.sqrt(n);i++){
             if ( n % i == 0){
-                isPrime = false;
+                return false;
             }
-        }
+           
+        } 
+     return true;
    }
 
 
