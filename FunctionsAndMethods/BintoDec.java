@@ -1,6 +1,6 @@
 // Dec to binary conversion 
 import java.util.*;
-public class Bin {
+public class BintoDec {
     public static void DecToBin(int BinNum){
         int myNum = BinNum;
         int Pow = 0;
@@ -14,6 +14,6 @@ public class Bin {
         System.out.println("decimal of " + myNum + "= " +  Decnum);
     }
     public static void main(String[] args) {
-        DecToBin(111);
+        BintoDec(111);
     }
 }
