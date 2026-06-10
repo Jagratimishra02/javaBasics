@@ -1,7 +1,7 @@
 // Dec to binary conversion 
 import java.util.*;
 public class BintoDec {
-    public static void DecToBin(int BinNum){
+    public static void BintoDec(int BinNum){
         int myNum = BinNum;
         int Pow = 0;
         int Decnum = 0;
