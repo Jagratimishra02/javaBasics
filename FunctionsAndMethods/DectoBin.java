@@ -1,3 +1,4 @@
+// decimal to binary conversion
 public class DectoBin {
     public static void DectoBin(int n){
         int myNum = n ;
