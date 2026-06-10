@@ -1,4 +1,4 @@
-// Dec to binary conversion 
+// binary to decimal conversion 
 import java.util.*;
 public class BintoDec {
     public static void BintoDec(int BinNum){
