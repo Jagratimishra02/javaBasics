@@ -15,13 +15,13 @@ public class Sum {
         System.out.println("The sum of " + integer + " is " + Sumint(integer));
     }
     public static int Sumint(int n){
-        int num = n ;
         int sumOfDigits = 0;
         int lastDigit = 0 ;
         while (n>0) {
             lastDigit = n%10;
-            sumOfDigits= sumOfDigits + lastDigit;
-            n = n/10;
+            sumOfDigits += lastDigit;
+                                             // sumOfDigits= sumOfDigits + lastDigit;
+            n /= 10 ;                        // n = n/10;  
         }
         return sumOfDigits;
     }
