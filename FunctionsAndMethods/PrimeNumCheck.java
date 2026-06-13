@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 public class PrimeNumCheck {
     // public static boolean isPrime(int n){
     //     Boolean isPrime = true;

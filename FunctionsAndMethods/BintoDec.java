@@ -1,7 +1,7 @@
 // binary to decimal conversion 
-import java.util.*;
+// import java.util.*;
 public class BintoDec {
-    public static void BintoDec(int BinNum){
+    public static void bintoDec(int BinNum){
         int myNum = BinNum;
         int Pow = 0;
         int Decnum = 0;
@@ -14,6 +14,6 @@ public class BintoDec {
         System.out.println("decimal of " + myNum + "= " +  Decnum);
     }
     public static void main(String[] args) {
-        BintoDec(111);
+        bintoDec(111);
     }
 }

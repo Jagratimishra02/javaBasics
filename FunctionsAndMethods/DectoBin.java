@@ -1,6 +1,6 @@
 // decimal to binary conversion
 public class DectoBin {
-    public static void DectoBin(int n){
+    public static void dectoBin(int n){
         int myNum = n ;
         int Pow = 0 ;
         int BinNum = 0;
@@ -13,6 +13,6 @@ public class DectoBin {
         System.out.println("binNum of " +  myNum + "=" + BinNum);
     }
     public static void main(String[] args) {
-        DectoBin(15);
+        dectoBin(15);
     }
 }
