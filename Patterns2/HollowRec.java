@@ -1,3 +1,4 @@
+// to print hollow rectangle 
 import java.util.*;
 public class HollowRec {
     public static void main(String[] args) {
