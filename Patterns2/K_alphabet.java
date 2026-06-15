@@ -1,3 +1,4 @@
+// print k alphabet pattern
 public class K_alphabet {
     public static void main(String[] args) {
         print_k(7);
