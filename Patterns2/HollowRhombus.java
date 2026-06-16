@@ -1,4 +1,4 @@
-public class HollowRombus {
+public class HollowRhombus {
     public static void main(String[] args) {
        hollow_rombus(7); 
     }
