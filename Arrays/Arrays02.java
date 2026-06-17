@@ -1,13 +1,14 @@
-package Arrays;
-
+import java.util.*;
 public class Arrays02 {
     public static void main(String[] args) {
-        // create of array - type 1
-        int marks[] = new int[50];
+        int marks[] = new int [100];
+        Scanner sc = new Scanner(System.in);
+        marks[0] = sc.nextInt(); // physics
+        marks[1] = sc.nextInt(); // chemistry
+        marks[2] = sc.nextInt(); // maths
 
-        // or this type in this we directly give element of array instead of size
-        int numbers[]= {1,2,3};    // 3 - array size
-        int moreNumbers[] ={4,5,6}; // 3 array size
-        String fruits[] = {"apple" , "mango" , "banana"}; // 3 - array size
+        System.out.println("physics"+ marks[0]);
+        System.out.println("chemistry"+ marks[1]);
+        System.out.println("maths"+ marks[2]);
     }
 }
