@@ -1,3 +1,5 @@
+// time complexity of binarysearch = O(log n); it has better performance, less runtime
+
 public class BinarySearch {
     public static int SearchKey(int num[], int key){
         int start = 0 , end = num.length-1;
