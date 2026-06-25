@@ -1,7 +1,7 @@
 // subarrys is a continuous part of array.
 public class SubArr {
     public static void sArray(int num[]){
-        int ts = 0;
+        int ts = 0;    // total subarray
         for(int i = 0 ; i < num.length;i++){
             int start = i ;
             for(int j = i ; j < num.length ; j++){
