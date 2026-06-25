@@ -1,3 +1,5 @@
+// to find maximum sum of subArray .
+// method 1 :- the time complexity of method 1 is O(n^3), which is poor
 public class MaxSubArrSum {
     public static void maxSum(int num[]){
         int currVal = 0;
