@@ -1,4 +1,5 @@
 // to find maximum sum of subarray using prefix method ... its time complexity is O(n^2) which is better than brut forth code 
+
 public class PrefixSum {
     public static void sum(int num[]){
         int currsum = 0 ;
