@@ -1,3 +1,5 @@
+// kadanes algorithm to find maximum sum of subarray ;  its time complexity is O(n), it is most prefferable approach ,better code
+
 public class KadansAlgorithm {
     public static void kadanessum(int num[]){
         int currsum = 0 ;
