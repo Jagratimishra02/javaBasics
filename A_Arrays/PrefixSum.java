@@ -1,8 +1,9 @@
-
+// to find maximum sum of subarray using prefix method ... its time complexity is O(n^2) which is better than brut forth code 
 public class PrefixSum {
     public static void sum(int num[]){
         int currsum = 0 ;
         int maxsum= Integer.MIN_VALUE;
+
         int prefix[] = new int[num.length];
         prefix[0]= num[0];
         // calculate prefix array 
@@ -14,6 +15,7 @@ public class PrefixSum {
             int start = i;
             for(int j = i; j<num.length ; j++){
                 int end = j;
+
                 //++++++++++++++++ this loop increases the time complexity
                 // for(int k = start ;k<= end ; k++){
                 //     System.out.print(num[k]+" ");
