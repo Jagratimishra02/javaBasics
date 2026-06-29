@@ -16,6 +16,9 @@ Constraints:
 1 <= prices.length <= 10⁵
 0 <= prices[i] <= 10⁴ */
 
+
+//_______________   time complexity of this code is O(n), which is optimal solution .
+
 import java.util.*;
 public class ArrayQues2 {
     public static int tocalculateprofit(int prices[]){
