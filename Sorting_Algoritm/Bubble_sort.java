@@ -1,6 +1,9 @@
 // [5,1,2,3,4] - unsorted array
 // [1,2,3,4,5] - sorted array in assending order
 // [5,4,3,2,1] - sorted array in descending order
+
+// its time complexity is O(n^2) , which is not optimal
+
 public class Bubble_sort {
     public static void compare (int num[]){
         for(int turns = 0 ; turns<num.length-1;turns++){
