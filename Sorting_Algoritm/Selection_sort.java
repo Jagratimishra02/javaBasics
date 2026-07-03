@@ -16,7 +16,16 @@ public class Selection_sort {
             arr[i] = temp;
         }
     }
+    // To print array
+    public static void printarr(int arr[]) {
+       for(int i = 0 ; i < arr.length ; i++) {
+        System.out.print(arr[i] + " ");
+       }
+       System.out.println();
+    }
     public static void main(String[] args) {
         int arr[] = {1,4,5,2,3};
+        selectionsort(arr);
+        printarr(arr);
     }
 }
