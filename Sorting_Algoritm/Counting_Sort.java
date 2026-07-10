@@ -1,3 +1,5 @@
+// it is used for short data its time complexity for best cases can be sometime O(n).it also handles duplicates.
+
 public class Counting_Sort {
     public static void countingsort(int arr[]){ 
         int largest = Integer.MIN_VALUE;
