@@ -12,10 +12,11 @@ public class Inbuilt_sort {
     }
     public static void main(String[] args) {
         int arr[] = { 5,4,1,2,3};
-        // Arrays.sort(arr);
+         Arrays.sort(arr);
 
         // for particular index sort
-        Arrays.sort(arr,0 ,3);       // here  0 is starting index and 3 is ending index + 1
+        //Arrays.sort(arr,0 ,3);       // here  0 is starting is ending index + 1
+
         printarr(arr);
     }
 }
