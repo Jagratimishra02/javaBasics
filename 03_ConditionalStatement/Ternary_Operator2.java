@@ -1,3 +1,4 @@
+// To find maximum of three numbers using  nested ternary operator .
 //  (condition ? true : false )
 
 import java.util.*;
