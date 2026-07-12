@@ -1,3 +1,5 @@
+// To print this series 99 , 95 , 91 ,......... till the number is positive .
+
 public class ApSeries2 {
     public static void main(String[] args) {
         int count = 0;   // to count number of terms 
