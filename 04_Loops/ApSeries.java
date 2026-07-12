@@ -1,3 +1,6 @@
+// To print Ap series = 2, 5, 7, 11 , ... n terms. 
+// last term formula = a + (n-1)*d   (here a is the first term , d is the difference between first and second , n = no of terms)
+
 import java.util.*;
 public class ApSeries {
     public static void main(String[] args) {
