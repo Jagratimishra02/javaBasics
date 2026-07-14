@@ -1,7 +1,9 @@
 // to print 2d array or matrix
+// and to find key 
 import java.util.Scanner;
 
 public class Matrics1 {
+    
     // To find key 
     public static boolean findkey(int matrix[][] , int key){
         for(int i = 0 ; i < matrix.length ;i++){
