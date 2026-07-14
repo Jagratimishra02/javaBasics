@@ -17,20 +17,22 @@ public class Matrics1 {
         }
         System.out.println("maxumum of array is " + max);
     }
-    // public static void max(int matrix[][]){
-    //     // To calculate maximun
-    //      int max = Integer.MIN_VALUE;  // to calculate maximum of the matrix
-    //     for(int i = 0 ; i < matrix.length ;i++){
-    //         int max2 = Integer.MIN_VALUE;   // to calculate max for every row
-    //         for (int j = 0 ; j < matrix[0].length; j++){
-    //             if(matrix[i][j] > max ){
-    //                 max = matrix[i][j];
-    //             }
-    //         }
-    //         // System.out.println(max2);
-    //     }
-    //     System.out.println("maxumum of array is " + max);
-    // }
+
+    public static void min(int matrix[][]){
+        // To calculate minimum
+         int min = Integer.MAX_VALUE;  // to calculate maximum of the matrix
+        for(int i = 0 ; i < matrix.length ;i++){
+            int min2 = Integer.MIN_VALUE;   // to calculate max for every row
+            for (int j = 0 ; j < matrix[0].length; j++){
+                if(matrix[i][j] < min ){
+                    max = matrix[i][j];
+                }
+            }
+            // System.out.println(min2);
+        }
+        System.out.println("minimum of array is " + min);
+    }
+
     // To find key 
     public static boolean findkey(int matrix[][] , int key){
         for(int i = 0 ; i < matrix.length ;i++){
@@ -64,5 +66,6 @@ public class Matrics1 {
         }
         findkey(matrix,5);  // key =  5
         max(matrix);
+        min(matrix);
     }
 }
