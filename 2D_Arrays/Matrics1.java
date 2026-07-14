@@ -3,7 +3,19 @@
 import java.util.Scanner;
 
 public class Matrics1 {
-    
+    public static void max(int matrix[][]){
+         int max = Integer.MIN_VALUE;  // to calculate maximum of the matrix
+        for(int i = 0 ; i < matrix.length ;i++){
+            int max2 = Integer.MIN_VALUE;   // to calculate max for every row
+            for (int j = 0 ; j < matrix[0].length; j++){
+                if(matrix[i][j] > max ){
+                    max = matrix[i][j];
+                }
+            }
+            // System.out.println(max2);
+        }
+        System.out.println("maxumum of array is " + max);
+    }
     // To find key 
     public static boolean findkey(int matrix[][] , int key){
         for(int i = 0 ; i < matrix.length ;i++){
@@ -36,5 +48,6 @@ public class Matrics1 {
             System.out.println();
         }
         findkey(matrix,5);  // key =  5
+        max(matrix);
     }
 }
