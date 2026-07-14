@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class Matrics1 {
+    // To find key 
     public static boolean findkey(int matrix[][] , int key){
         for(int i = 0 ; i < matrix.length ;i++){
             for (int j = 0 ; j < matrix[0].length; j++){
@@ -32,6 +33,6 @@ public class Matrics1 {
             }
             System.out.println();
         }
-        findkey(matrix,5);
+        findkey(matrix,5);  // key =  5
     }
 }
