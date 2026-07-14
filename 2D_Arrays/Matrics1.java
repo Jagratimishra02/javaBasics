@@ -22,10 +22,10 @@ public class Matrics1 {
         // To calculate minimum
          int min = Integer.MAX_VALUE;  // to calculate maximum of the matrix
         for(int i = 0 ; i < matrix.length ;i++){
-            int min2 = Integer.MIN_VALUE;   // to calculate max for every row
+            // int min2 = Integer.MIN_VALUE;   // to calculate max for every row
             for (int j = 0 ; j < matrix[0].length; j++){
                 if(matrix[i][j] < min ){
-                    max = matrix[i][j];
+                    min = matrix[i][j];
                 }
             }
             // System.out.println(min2);
