@@ -15,14 +15,14 @@ public class Matrics1 {
             }
             // System.out.println(max2);
         }
-        System.out.println("maxumum of array is " + max);
+        System.out.println("maximum of array is " + max);
     }
 
     public static void min(int matrix[][]){
         // To calculate minimum
-         int min = Integer.MAX_VALUE;  // to calculate maximum of the matrix
+         int min = Integer.MAX_VALUE;  // to calculate minimum of the matrix
         for(int i = 0 ; i < matrix.length ;i++){
-            // int min2 = Integer.MIN_VALUE;   // to calculate max for every row
+            // int min2 = Integer.MAX_VALUE;   // to calculate min for every row
             for (int j = 0 ; j < matrix[0].length; j++){
                 if(matrix[i][j] < min ){
                     min = matrix[i][j];
