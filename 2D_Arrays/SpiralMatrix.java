@@ -8,7 +8,9 @@ public class SpiralMatrix{
         int endColumn =matrix[0].length - 1 ; 
         while(StartRow <= StartColumn && endRow <= endColumn){
             // top 
-            
+            for(int j = StartColumn ; j < endColumn ; j++){
+                System.out.print(matrix[StartRow][j]+ " ");
+            }
         }
     }
     public static void main(String[] args) {
