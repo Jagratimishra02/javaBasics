@@ -1,6 +1,9 @@
 // To print an array in spiral form
 
-public class SpiralMatrix {
+public class SpiralMatrix{
+    public static void printSpiral(int matrix){
+        
+    }
     public static void main(String[] args) {
         int matrix[][] = {{1,2,3,4,} ,
                           {5,6,7,8},
