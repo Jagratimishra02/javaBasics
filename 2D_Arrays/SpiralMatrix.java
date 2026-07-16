@@ -6,7 +6,9 @@ public class SpiralMatrix{
         int StartColumn = 0 ;
         int endRow = matrix.length - 1;
         int endColumn =matrix[0].length - 1 ; 
-
+        while(StartRow <= StartColumn && endRow <= endColumn){
+            
+        }
     }
     public static void main(String[] args) {
         int matrix[][] = {{1,2,3,4,} ,
