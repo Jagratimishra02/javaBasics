@@ -1,3 +1,4 @@
+// to print ascii values of characters . 
 
 public class Ascii_Nums {
     public static void main(String[] args) {
