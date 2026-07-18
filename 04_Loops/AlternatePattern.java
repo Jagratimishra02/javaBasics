@@ -8,19 +8,38 @@ public class AlternatePattern {
         System.out.print("Enter n: ");
         int n = sc.nextInt();
 
+        // int low = 1;
+        // int high = n;
+
+        // for (int i = 0; low <= high; i++) {
+        //     if (i % 2 == 0) {
+        //         System.out.println(high);
+        //         high--;
+        //     } else {
+        //         System.out.println(low);
+        //         low++;
+        //     }
+        // }
+
+        // sc.close();
+
+
+        //+++++++++++ METHOD 2+++++++++++++++++++
+        
         int low = 1;
         int high = n;
+        boolean toggle = true; // true matlab high se lena, false matlab low se
 
-        for (int i = 0; low <= high; i++) {
-            if (i % 2 == 0) {
+        while (low <= high) {
+            if (toggle) {
                 System.out.println(high);
                 high--;
             } else {
                 System.out.println(low);
                 low++;
             }
+            toggle = !toggle;
         }
 
-        sc.close();
     }
 }
