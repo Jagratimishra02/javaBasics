@@ -1,3 +1,5 @@
+// To print Alternate pattern 
+
 import java.util.Scanner;
 
 public class AlternatePattern {
