@@ -1,3 +1,4 @@
+// To count total digits from input .
 import java.util.Scanner;
 
 public class Count_Nums {
