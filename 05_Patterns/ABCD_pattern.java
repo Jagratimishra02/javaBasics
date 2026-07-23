@@ -10,8 +10,8 @@ public class ABCD_pattern {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int ch = 65;
-        for(int i = 1 ; i <= n ; i++){
-            for(int j = 1 ; j <= n ; j++){
+        for(int i = 1 ; i <= n ; i++){        // to print column 
+            for(int j = 1 ; j <= n ; j++){    // to print individual row
                 System.out.print((char)(ch) + " ");
             }
             ch++;
