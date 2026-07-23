@@ -1,4 +1,7 @@
-
+// To print pattern shown below : 
+/* A A A A
+   B B B B 
+   C C C C  */
 
 import java.util.Scanner;
 
