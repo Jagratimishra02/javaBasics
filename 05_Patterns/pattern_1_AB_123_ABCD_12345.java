@@ -1,3 +1,9 @@
+// to print pattern shown below .
+/*  1
+    AB
+    123
+    ABCD */
+
 import java.util.Scanner;
 
 public class pattern_1_AB_123_ABCD_12345 {
