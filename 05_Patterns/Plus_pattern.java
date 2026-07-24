@@ -1,3 +1,5 @@
+// to print plus pattern
+
 import java.util.Scanner;
 
 public class Plus_pattern {
