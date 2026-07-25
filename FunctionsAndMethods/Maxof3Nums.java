@@ -1,3 +1,5 @@
+// to find maximum of three using functions .
+
 public class Maxof3Nums {
     public static int max(int a , int b , int c){
         if(a > b && a > c){
