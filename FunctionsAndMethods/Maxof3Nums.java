@@ -9,6 +9,7 @@ public class Maxof3Nums {
         }
     }
     public static void main(String[] args) {
-      System.out.println(max( 4, 5 ,6));  
+      int x =  max( 4, 5 ,6);     
+      System.out.println(max(8, x , 1));  // maximum of 3 
     }
 }
