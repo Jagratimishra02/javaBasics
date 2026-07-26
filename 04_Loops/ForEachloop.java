@@ -1,5 +1,5 @@
 // for each loop is used  to traverse a data stuctures , like array , linkedlists etc.
-// it does not change the orignal array 
+// it does not change the orignal array .
 
 public class ForEachloop {
     public static void main(String[] args) {
