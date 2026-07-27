@@ -5,20 +5,22 @@
 import java.util.Scanner;
 
 public class MissingNum {
-    public static void missingnum(int Arr[]){
-        int n = Arr.length+1;
+    public static void missingnum(long Arr[]){
+         long n = Arr.length+1;               // array length can be in lakhs. if it is in lakhs then sum n(n+1)/2 will be long
+        // not int
+
        // sum of orignal array which does not have missing element 
-        int sum = n *(n+1)/2 ;
+       long sum = n *(n+1)/2 ;        // sum can be long 
 
       // sum of array having missing num.
-        int summissing = 0 ;
-        for(int i : Arr){
+        long summissing = 0 ;
+        for(long i : Arr){
             summissing += i;
         }
         System.out.println("missing element is : "  + (sum-summissing));  //  orignal array sum - missing array sum
     }
-    public static void printArr(int Arr[]){
-        for(int val : Arr){
+    public static void printArr(long Arr[]){
+        for(long val : Arr){
             System.out.print(val + " ");
         }
         System.out.println();
@@ -28,11 +30,11 @@ public class MissingNum {
     Scanner sc = new Scanner(System.in);
     // to take input of length
     int index = sc.nextInt();
-    int []Arr = new int[index];
+    long []Arr = new long[index];
     // to take input of elements
       int i = 0;
         while(i< index ){
-           Arr[i] = sc.nextInt();
+           Arr[i] = sc.nextLong();
             i++;
         }
     printArr(Arr); 
