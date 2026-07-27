@@ -15,7 +15,7 @@ public class MissingNum {
         for(int i : Arr){
             summissing += i;
         }
-        System.out.println(sum-summissing);  //  orignal array sum - missing array sum
+        System.out.println("missing element is : "  + (sum-summissing));  //  orignal array sum - missing array sum
     }
     public static void printArr(int Arr[]){
         for(int val : Arr){
