@@ -1,3 +1,5 @@
+// To segregate 0's and 1's using two pointer method
+
 public class Segregate0And1 {
     public static void segregate(int arr[]){
       int n = arr.length ;
@@ -22,6 +24,7 @@ public class Segregate0And1 {
     public static void main(String[] args) {
         int [] arr = {1,1,0,1,1,0,0};
         segregate(arr);
+        // to print an array using for each loop 
        for(int ele : arr){
            System.out.print(ele); ;
        }
