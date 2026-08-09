@@ -50,6 +50,7 @@ public class Syntax_of_arraylist {
        // method 2
        int i = 0 , j = arr.size()-1;
        while(i < j){
+        // swap
         int temp = arr.get(i);
         arr.set(i , arr.get(j));
         arr.set(j, temp);
