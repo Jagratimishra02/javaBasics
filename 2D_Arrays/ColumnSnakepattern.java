@@ -2,11 +2,14 @@
 
 public class ColumnSnakepattern {
     public static void printsnake(int arr[][]){
+        // to traverse outside array .
         for(int i = 0 ; i < arr.length ;i++ ){
+            // to traverse inner array which divides by 2 , row 0,2,4
             if(i % 2 == 0) {
                 for(int j = 0 ; j < arr[i].length ; j++){
                     System.out.print(arr[i][j] + " ");
                 } 
+                // to traverse  inside array which is odd , row = 1,3,5 .
               } else { for(int j = arr[i].length-1; j >= 0 ; j-- ){
                     System.out.print(arr[i][j] + " ");
                
