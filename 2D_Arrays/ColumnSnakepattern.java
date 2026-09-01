@@ -1,4 +1,5 @@
 // To print snake pattern columnwise
+
 public class ColumnSnakepattern {
     public static void printsnake(int arr[][]){
         for(int i = 0 ; i < arr.length ;i++ ){
