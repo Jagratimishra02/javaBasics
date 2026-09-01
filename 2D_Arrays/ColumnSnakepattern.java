@@ -12,7 +12,6 @@ public class ColumnSnakepattern {
                 // to traverse  inside array which is odd , row = 1,3,5 .
               } else { for(int j = arr[i].length-1; j >= 0 ; j-- ){
                     System.out.print(arr[i][j] + " ");
-               
                 }
             }
             System.out.println();
