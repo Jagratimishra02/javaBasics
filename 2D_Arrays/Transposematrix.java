@@ -1,3 +1,4 @@
+// to print transpose of the matrix.
 public class Transposematrix {
    public static void printsnake(int arr[][]){
      for(int i = 0 ; i < arr[0].length;i++){
