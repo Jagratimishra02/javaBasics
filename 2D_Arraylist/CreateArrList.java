@@ -15,7 +15,7 @@ public class CreateArrList {
         arr.add(a); 
         arr.add(b);
         arr.add(c);
-
+        
   //+++++++++++++++ to print array list +++++++++++
 
   // method 1 
