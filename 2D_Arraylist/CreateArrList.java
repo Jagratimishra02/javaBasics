@@ -1,3 +1,4 @@
+// to print arraylist of array list .
 import java.util.ArrayList;
 public class CreateArrList {
     public static void main(String[] args) {
