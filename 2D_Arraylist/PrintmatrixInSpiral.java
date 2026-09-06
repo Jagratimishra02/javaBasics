@@ -1,3 +1,4 @@
+// To print in spiral manner in an Arraylist .
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class PrintmatrixInSpiral {
             ans.add(matrix[firstRow][i]);
         }
         firstRow++;
-        if(firstRow>LastRow || firstCol>LastCol) break;
+        if(firstRow>LastRow || firstCol>LastCol) break;   // if first  row or col is greater then row or col break
 
         // for down
         for(int j = firstRow ; j <= LastRow ; j++){
