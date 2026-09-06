@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintmatrixInSpiral {
+     public static List<Integer> spiralOrder(int[][] matrix) {
+        ArrayList<Integer>ans = new ArrayList<>();
+       int n = matrix[0].length , m = matrix.length ; 
+       int firstRow = 0 ;
+       int LastRow = m-1;
+       int firstCol = 0;
+       int LastCol = n-1;
+       while(firstRow<=LastRow && firstCol <= LastCol){
+
+        // for right 
+        for(int i = firstCol ; i <= LastCol; i++){
+            ans.add(matrix[firstRow][i]);
+        }
+        firstRow++;
+        if(firstRow>LastRow || firstCol>LastCol) break;
+
+        // for down
+        for(int j = firstRow ; j <= LastRow ; j++){
+            ans.add(matrix[j][LastCol]);
+        }
+        LastCol--;
+        if(firstRow>LastRow || firstCol>LastCol) break;
+
+        // for left
+        for(int i = LastCol ; i >= firstCol ; i--){
+            ans.add(matrix[LastRow][i]);
+        }
+        LastRow--;
+        if(firstRow>LastRow || firstCol>LastCol) break;
+
+        // for up
+        for(int j = LastRow ; j >= firstRow ; j--){
+            ans.add(matrix[j][firstCol]);
+        }
+        firstCol++;
+        if(firstRow>LastRow || firstCol>LastCol) break;
+       }
+       return ans;
+    }
+    public static void main(String[] args) {
+        int [][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+       System.out.println(spiralOrder(matrix));
+    }
+}
