@@ -3,7 +3,7 @@ package Strings;
 import java.util.Scanner;
 
 public class palindrome {
-    public static boolean isPalindrome(String s) {
+    public static boolean isPalindrome(String s) {   // time complexity = O(n);
         int start = 0 ;
         int end = s.length()-1;
         while(start<=end){
