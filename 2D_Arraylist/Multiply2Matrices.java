@@ -1,3 +1,4 @@
+// to multiply two matrix and return in array list of arraylist 
 import java.util.ArrayList;
 
 public class Multiply2Matrices {
