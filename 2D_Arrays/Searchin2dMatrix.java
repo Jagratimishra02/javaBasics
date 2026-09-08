@@ -1,10 +1,16 @@
+// to search in a matrix. 
+// for [[1,2],[3,4]..n] = use binary search ....time complexity= O(log(m*n).
+// for [[1,6],[3,7],[2,8]..n] = use method 2....time complexity= O(m+n).(last row element is greater so array can't be flattened)
+
 public class Searchin2dMatrix {
         public static void main(String[] args) {
             int [][] matrix = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
             System.out.println(searchMatrix(matrix,11));
         }
         public static  boolean searchMatrix(int[][] matrix, int target) {
-        // using binary search   // time complexity log(m*n)
+
+      //++++++++++method 1 +++++++++++.
+        // using binary search   // time complexity= O(log(m*n))
        int m = matrix.length;
        int n = matrix[0].length;
        int lo = 0;
@@ -33,3 +39,7 @@ public class Searchin2dMatrix {
     //     return false;
     }
 }
+
+/* binary search is applicable only if the array is globally(flattened) sorted  if arr is [1,2,3],[4....n] 
+ if arr is [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22]] is sorted row and column wise but is may have the last low element
+ bigger than the 1 st element of another row , if array is not globally sorted only row column wise sorted use method 2 */
