@@ -1,5 +1,4 @@
 // To check string is palindrome or not .
-package Strings;
 import java.util.Scanner;
 
 public class palindrome {
