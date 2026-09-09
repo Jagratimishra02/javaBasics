@@ -1,5 +1,3 @@
-package Strings;
-
 import java.util.Scanner;
 // Strings are pass by value they does not change the orignal value . 
 public class Stringbasics {
