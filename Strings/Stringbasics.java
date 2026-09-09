@@ -2,7 +2,7 @@ package Strings;
 
 import java.util.Scanner;
 // Strings are pass by value they does not change the orignal value . 
-public class StringBasics {
+public class Stringbasics {
     public static void change(String s){
         s = "nishi";
     }
