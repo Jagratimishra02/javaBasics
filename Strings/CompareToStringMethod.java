@@ -1,4 +1,5 @@
 public class CompareToStringMethod {
+    // compare method created
     public static int CompareTo(String a,String b){
         int n = Math.min(a.length(),b.length());
         for(int i = 0 ; i < n ; i++){
