@@ -26,5 +26,13 @@ public class CompareToStringMethod {
        System.out.println(CompareTo(a,b)); 
        System.out.println(CompareTo(s,t)); 
 
+
+//+++++++++++++++  Concate +++++++++++++++++++++++++++++++++++
+       String c = "jagrati";
+       String d = "mishra";
+       // System.out.println(c.concat(d));
+       //or
+        c = c.concat(d);
+        System.out.println(c);
     }
 }
