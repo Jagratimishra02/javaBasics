@@ -12,5 +12,11 @@ public class IntToString {
         String s = Integer.toString(n);
         System.out.println(s);
 
+
+        // string converted into int
+        String j = "84345";
+        int k = Integer.parseInt(j);
+        System.out.println(k+1);   // it becomes integer so addition performed
+
     }
 }
