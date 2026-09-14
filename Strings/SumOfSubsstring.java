@@ -1,3 +1,4 @@
+// sum of alls substrings.
 public class SumOfSubsstring {
     public static int sumSubstrings(String s) {
         // code here
