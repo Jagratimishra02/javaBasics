@@ -1,5 +1,5 @@
+// anagram means two words having same char in it even if it jumbled.
 import java.util.Arrays;
-
 public class Anagram {
     public static boolean isAnagram(String s, String t) {
         // if length of s is not equal to t return false 
@@ -23,7 +23,7 @@ public class Anagram {
         String s = "anagram";
         String t = "nagaram";
         System.out.println(isAnagram(s, t));
-        String x = "aago";
+        String x = "a";
         String y = "jago";
         System.out.println(isAnagram(x, y));
     }
