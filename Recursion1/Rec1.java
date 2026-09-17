@@ -1,5 +1,4 @@
-// Recursion refers to function calling itself
-
+// Recursion refers to function calling itself.
 public class Rec1 {
     public static void main(String[] args) {
         print(5);
