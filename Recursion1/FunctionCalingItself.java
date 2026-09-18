@@ -23,7 +23,7 @@ public class FunctionCalingItself {
     // to print 1 to n
     public static void print(int x){
         if(x>n) return ;
-        System.out.println(x);
+        System.out.print(x + " ");
         print(x+1);
     }
 }
