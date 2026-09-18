@@ -6,6 +6,6 @@ public class GlobalVar {
         System.out.println(x);         // output is 20 .
     } 
     public static void fun(){
-         x = 20;                 // x changed globally .
+         x = 20;                       // x changed globally .
     }
 }
