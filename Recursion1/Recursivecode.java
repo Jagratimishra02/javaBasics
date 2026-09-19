@@ -8,7 +8,7 @@ public class Recursivecode {
         print(n);
     }
     public static void print(int n){
-        if(n == 0) return ;          // basecase
+        if(n == 1) return ;          // basecase
         System.out.print(n + " ");   // call
         print(n-1);                  // work
         System.out.print(n + " ");   // call
