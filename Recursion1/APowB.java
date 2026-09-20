@@ -1,3 +1,4 @@
+// to find a power b value . through recursion .
 import java.util.Scanner;
 
 public class APowB {
