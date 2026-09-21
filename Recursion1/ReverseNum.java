@@ -1,5 +1,5 @@
 // Reverse a number using loops and recursion . 
-// time complexity is 0()
+// time complexity is O(log n base10 ) = O(1)
 public class ReverseNum {
     public static void main(String[] args) {
         int num = 12345;
