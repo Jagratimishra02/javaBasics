@@ -1,5 +1,5 @@
+// sum of number n . example ,n=3:sum = 1+2+3 
 import java.util.Scanner;
-
 public class RecSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in) ;
