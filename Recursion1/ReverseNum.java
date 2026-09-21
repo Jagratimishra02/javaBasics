@@ -1,3 +1,5 @@
+// Reverse a number using loops and recursion . 
+// time complexity is 0()
 public class ReverseNum {
     public static void main(String[] args) {
         int num = 12345;
@@ -9,7 +11,7 @@ public class ReverseNum {
         //     num /= 10;
         // }
         // System.out.println(rev);
-        
+
         System.out.println(reverse(num,0));
     }
     // method 2 through recursion
