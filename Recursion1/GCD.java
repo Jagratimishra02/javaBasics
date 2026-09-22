@@ -11,7 +11,7 @@ public class GCD {
 
     // method 2 recursion
     if(a==0) return b;
-    return gcd(a%b ,a);
+    return gcd(a%b ,a);  //we can also do b%a bcoz a%b = b%a after first cycle if a is greater
     }
     public static void main(String[] args) {
         System.out.println(gcd(8, 16));
