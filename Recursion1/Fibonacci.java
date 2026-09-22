@@ -9,7 +9,7 @@ public class Fibonacci {
     }
     public static int series(int n){
         if(n == 0 || n ==1) return n;
-        // it is known as depth first search . dfs
+        // it is known as depth first search . dfs: top to down aproach . this tree is called Euler's tour tree 
         return series(n-1)+series(n-2);  // calling two functions together.
     }
 }
