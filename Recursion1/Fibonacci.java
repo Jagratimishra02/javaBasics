@@ -1,4 +1,5 @@
 // Fibonacci series :- 0,1,1,2,3,5,8... .    n =  (n-1)+(n-2) , 3 = 2 + 1
+// Time complexity = O(2^n) .
 import java.util.Scanner;
 
 public class Fibonacci {
