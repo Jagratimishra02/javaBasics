@@ -9,6 +9,6 @@ public class Fibonacci {
     }
     public static int series(int n){
         if(n == 0 || n ==1) return n;
-        return series(n-1)+series(n-2);  // calling two functions together .
+        return series(n-1)+series(n-2);  // calling two functions together.
     }
 }
