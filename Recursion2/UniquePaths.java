@@ -19,7 +19,7 @@ public class UniquePaths {
     //     //  destination from either top or left, so we add both the ways
     // }
 
-    // Method 2
+    // +++++++++++++++++++++++++++++++++++Method 2++++++++++++++++++++++++++++
      public static int uniquePaths(int m, int n) {
         return Paths(0,0,m-1, n-1);
     }
@@ -27,6 +27,8 @@ public class UniquePaths {
         if(cr == lr && cc == lc) return 1; // if we reach the destination, return 1
         if(cr > lr || cc > lc) return 0; // if we go out of bounds, return 0 
         return Paths(cr+1, cc, lr, lc) + Paths(cr, cc+1, lr, lc); // we can move either down or right
+
+
         // int right = Paths(cr+1, cc, lr, lc);
         // int down = Paths(cr, cc+1, lr, lc); // we can move either down or right
         // return right + down;    // this also gives tle error, bcoz we are calculating the 
