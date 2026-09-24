@@ -1,4 +1,4 @@
-// To print array using Recursion first to last and last to first.
+// to print array using Recursion first to last and last to first.
 public class RecursionOnArrays {
     public static void main(String[] args) {
         int[] arr = {2,4,6,8,9};
@@ -7,6 +7,7 @@ public class RecursionOnArrays {
         recArr(arr,0); // to print array using Recursion first to last.
         // recArr(arr,n); // to print array using Recursion last to first.
         recReversearr(arr,0); // to print array using Recursion last to first.
+    
     }
 
     // to print array using Recursion first to last.
@@ -32,7 +33,7 @@ public class RecursionOnArrays {
         int n = arr.length; // length of the array
         if(idx < 0) return;
         System.out.println(arr[idx] + " ");  
-        recReversearr(arr, idx-1);
+        recReversearr(arr, idx-1); 
         // call first and then print the element at the current index printing in reverse order
     }
 }

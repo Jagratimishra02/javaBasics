@@ -5,8 +5,8 @@ public class Swap {
         int temp = a;
         a = b;
         b = temp;
-        System.out.println("a is:" + a);
-        System.out.println("b is:" + b); 
+        System.out.println("a is:" + a); // a = 5
+        System.out.println("b is:" + b); // b = 20
     }
     public static void main(String[] args) {
         // swap-value exchange
