@@ -1,3 +1,4 @@
+// to find target in an array 
 public class Findtar {
     public static void main(String[] args) {
         int []arr = {8,7,2,6,3,4,23,22,5};
