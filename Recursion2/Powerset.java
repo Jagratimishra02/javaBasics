@@ -1,5 +1,6 @@
+// to lexographically(order used in Dictionary) return the powerset of string . 
+// eg :- for abc = [abc,ab,ac,a,bc,b,c]
 import java.util.*;
-
 public class Powerset {
     public static void main(String[] args) {
      List<String> list = new ArrayList<>();   // if we want to return list 
