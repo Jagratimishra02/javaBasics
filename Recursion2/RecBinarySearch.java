@@ -1,4 +1,5 @@
 // binary search using recursion , leetcode 704 .
+// time complexity = O(n), space complexity = O(n);
 public class RecBinarySearch {
      public static void main(String[] args) {
         int[] nums = {-1,0,3,5,9,12};
