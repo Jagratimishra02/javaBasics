@@ -1,3 +1,4 @@
+// TO move disks from a to c ."Power of Hanoi"
 public class PowerOfHanoi {
     public static void main(String[] args) {
         hanoi(4,'a','b','c');
