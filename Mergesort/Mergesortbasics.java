@@ -1,10 +1,19 @@
 // merge sort  ,Time complexity = O(n*logn) , space complexity = O(n*logn)
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Mergesortbasics {
     public static void main(String[] args) {
         int []arr = {2,5,9,3,1,8};
         Mergesort(arr);
         for(int ele:arr){
             System.out.print(ele + " ");
+            // ArrayList<Integer> al = new ArrayList<>();
+            // al.add(10);
+            // al.add(20);
+            // al.clear();      // array list elemen ts can be cleared
+            // System.out.println(al);
         }
     }
     public static void Mergesort(int [] arr){ 
