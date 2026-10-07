@@ -1,4 +1,4 @@
-// merge sort
+// merge sort  ,Time complexity = O(n*logn) , space complexity = O(n*logn)
 public class Mergesortbasics {
     public static void main(String[] args) {
         int []arr = {2,5,9,3,1,8};
