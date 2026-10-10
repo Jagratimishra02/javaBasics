@@ -10,8 +10,8 @@ public class Multipleduplicates {
       int i = 0 ; 
       while(i < nums.length){
          int j = nums[i]-1;     //  j is the right index
-        if(nums[i] == i+1 || nums[i] == nums[j]) i++; // nums[i] == nums[j]  if number i and j is same then swap is not needed
-        // it will create infinite loop if nums[i] and nums[j] have same values .
+        if(nums[i] == i+1 || nums[i] == nums[j]) i++; // nums[i] == nums[j]  if number i and j is same then swap
+        //  is not needed it will create infinite loop if nums[i] and nums[j] have same values .
         else {
             swap(i,j,nums);
         }
