@@ -1,7 +1,5 @@
 // to check and give the duplicate and mismatch element .
-
 import java.util.Arrays;
-
 public class SetMismatch {
     public static void main(String[] args) {
         int []nums = {1,2,2,4}; // array created so that we can return array.
@@ -15,7 +13,7 @@ public class SetMismatch {
            if (k < nums.length - 1) System.out.print(", ");
         }
             System.out.println("]");
-            
+
      }
      public static  int[] findErrorNums(int[] nums) {
         int []ans = new int[2];
