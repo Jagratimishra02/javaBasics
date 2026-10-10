@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
+//if more than 1 number is duplicate.
+import java.util.*;
 public class Multipleduplicates {
     public static void main(String[] args) {
         int []nums = {4,3,2,7,8,2,3,1};
