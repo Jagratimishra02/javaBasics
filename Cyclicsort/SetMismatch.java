@@ -1,3 +1,4 @@
+// to check and give the duplicate and mismatch element .
 public class SetMismatch {
     public static void main(String[] args) {
         int []nums = {1,2,2,4};
@@ -15,8 +16,8 @@ public class SetMismatch {
         }
         for(i = 0; i<nums.length; i++){
             if(nums[i] != i+1) {
-                ans[0] = nums[i];
-                ans[1] = i+1;
+                ans[0] = nums[i]; // the number which is repeated
+                ans[1] = i+1;     // the missing number
             }
         }
         return ans;
