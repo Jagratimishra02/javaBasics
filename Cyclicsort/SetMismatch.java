@@ -3,7 +3,9 @@ import java.util.Arrays;
 public class SetMismatch {
     public static void main(String[] args) {
         int []nums = {1,2,2,4}; // array created so that we can return array.
+
         // System.out.println(Arrays.toString(findErrorNums(nums))); // to print array as a string.
+        
         System.out.print("[");
         findErrorNums(nums);
 
