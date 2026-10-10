@@ -5,8 +5,18 @@ import java.util.Arrays;
 public class SetMismatch {
     public static void main(String[] args) {
         int []nums = {1,2,2,4}; // array created so that we can return array.
-        System.out.println(Arrays.toString(findErrorNums(nums))); // to print array as a string.
-    }
+        // System.out.println(Arrays.toString(findErrorNums(nums))); // to print array as a string.
+        System.out.print("[");
+        findErrorNums(nums);
+
+        // to print array 
+       for (int k = 0; k < nums.length; k++) {
+           System.out.print(nums[k]);
+           if (k < nums.length - 1) System.out.print(", ");
+        }
+            System.out.println("]");
+            
+     }
      public static  int[] findErrorNums(int[] nums) {
         int []ans = new int[2];
         int i = 0 ;
