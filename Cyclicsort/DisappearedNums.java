@@ -1,6 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
-
+// To find missing numbers in array 1 to n.
+import java.util.*;
 public class DisappearedNums {
     public static void main(String[] args) {
         int [] nums = {4,3,2,7,8,2,3,1};
@@ -11,13 +10,13 @@ public class DisappearedNums {
         int i = 0 ;
         while(i < nums.length){
             int j = nums[i]-1;
-            if(nums[i] == i+1 || nums[i] == nums[j]) i++ ;
+            if(nums[i] == i+1 || nums[i] == nums[j]) i++ ; // if num is at correct position or repeated
             else {
                 swap(i,j,nums);
             }
         }
         for(i = 0; i<nums.length; i++){
-            if(nums[i] != i+1) ans.add(i+1);
+            if(nums[i] != i+1) ans.add(i+1); // the numbers which are missing
         }
         return ans;
     }
