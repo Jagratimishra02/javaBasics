@@ -1,8 +1,11 @@
 // to check and give the duplicate and mismatch element .
+
+import java.util.Arrays;
+
 public class SetMismatch {
     public static void main(String[] args) {
-        int []nums = {1,2,2,4};
-        System.out.println(findErrorNums(nums));
+        int []nums = {1,2,2,4}; // array created so that we can return array.
+        System.out.println(Arrays.toString(findErrorNums(nums))); // to print array as a string.
     }
      public static  int[] findErrorNums(int[] nums) {
         int []ans = new int[2];
@@ -18,6 +21,7 @@ public class SetMismatch {
             if(nums[i] != i+1) {
                 ans[0] = nums[i]; // the number which is repeated
                 ans[1] = i+1;     // the missing number
+                break;
             }
         }
         return ans;
