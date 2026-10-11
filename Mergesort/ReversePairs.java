@@ -1,3 +1,4 @@
+//find the pairs which satisfies nums[i] > 2 * nums[j] . leetcode 493 
 public class ReversePairs {
     public static void main(String[] args) {
         int []nums = {2,4,3,5,1};
