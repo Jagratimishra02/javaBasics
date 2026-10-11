@@ -1,0 +1,50 @@
+public class ReversePairs {
+    public static void main(String[] args) {
+        int []nums = {2,4,3,5,1};
+        System.out.println(reversePairs(nums));
+    }
+     static int count;
+    public static int reversePairs(int[] nums) {
+      count = 0;
+      mergesort(nums);
+      return count;
+    } 
+    // merge sort 
+    public static void mergesort(int []nums){
+        int n = nums.length;
+        if(n <= 1) return; 
+        int idx = 0;
+        // divide the array into a and 
+        int []a = new int[n/2];
+        int []b = new int[n - n/2];
+        // copy the elements of nums to a and b.
+        for(int i = 0 ; i < a.length ; i++) a[i] = nums[idx++];
+        for(int j = 0 ; j < b.length ; j++) b[j] = nums[idx++];
+        // recursion till elements in nums is 1 of a and b.
+        mergesort(a);
+        mergesort(b);
+        Inversion(a,b);
+        merge(a,b,nums);
+    }
+
+    // To count reverse pairs .
+    public static void Inversion(int []a, int []b){
+         int j = 0;
+        for(int i = 0 ; i < a.length; i++){
+            while( j < b.length && (long)a[i] > 2 *(long)b[j]) j++; // j ++ when pair found
+            count += j;
+        }
+    }
+
+    // merge 2 arrays into sorted order.
+    public static void merge(int[] a , int[] b , int [] nums){
+       
+        int i = 0, k =0 ,j = 0;
+        while(i<a.length && j<b.length){
+            if(a[i] > b[j]) nums[k++] = b[j++];
+            else nums[k++] = a[i++];
+        }
+        while(i<a.length) nums[k++] = a[i++];
+        while(j<b.length) nums[k++] = b[j++];
+    }
+}
