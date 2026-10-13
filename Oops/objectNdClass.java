@@ -1,9 +1,7 @@
-/*   “Polymorphism allows the same method to behave differently based on the object or parameters,
-     achieved through overloading at compile time and overriding at run time.” */
-
+// Class is a blueprint  And object is a real life entity.
 import java.util.Scanner;
 
-public class Polymorphism {
+public class objectNdClass {
     public static class student{         // CLASS
         String name;
         int rno;
