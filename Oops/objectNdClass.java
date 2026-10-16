@@ -6,6 +6,11 @@ public class objectNdClass {
         String name;
         int rno;
         double cgpa;
+
+        // methods inside the class 
+        void print(){
+            System.out.println(name + " " + rno + " " + cgpa);
+        }
     }
     public static void main(String[] args) {    
     Scanner sc = new Scanner(System.in);    // scanner is a class , sc is an object
@@ -24,9 +29,15 @@ public class objectNdClass {
     s3.rno = sc.nextInt();
     s3.cgpa = 8.5;
 
-    System.out.println(s1.name +" " + s1.cgpa +" "+ s1.rno);
-    s2.cgpa = 9.1;
-    System.out.println(s2.cgpa);
-    System.out.println(s3.rno);
+    // System.out.println(s1.name +" " + s1.cgpa +" "+ s1.rno);
+    // s2.cgpa = 9.1;
+    // System.out.println(s2.cgpa);
+    // System.out.println(s3.rno);
+
+
+    // to call method inside class student .
+    s1.print();
+    s2.print();
+    s3.print();
     }
 }
