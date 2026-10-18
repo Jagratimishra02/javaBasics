@@ -24,8 +24,9 @@ public class Constructer {
         }
     }
     public static void main(String[] args) {
+        // new object c1 created
         car c1 = new car(4,"mercedes",5.7);
-        c1.print();
+        c1.print(); // access to the method of class for that object 
         car c2 = new car(4, "bmw" , 5.0);
         c2.print();
         car c3 = new car(2, "lambo" , 6.0);
