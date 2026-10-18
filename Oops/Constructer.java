@@ -12,6 +12,11 @@ public class Constructer {
             name = s;
             length = l; 
         }
+        car( String s, int x , double l){ // order changed string comes  at first , we can use constructer if order is changed
+            seats = x;
+            name = s;
+            length = l; 
+        }
         car(){                 // default constructer
 
         }
@@ -28,7 +33,8 @@ public class Constructer {
         c1.print(); // access to the method of class for that object 
         car c2 = new car(4, "bmw" , 5.0);
         c2.print();
-        car c3 = new car(2, "lambo" , 6.0);
+        car c3 = new car("lambo", 2, 6.0);  //car( String s, int x , double l)  here this constructer having these
+        //  parameters executes 
         c3.print();
 
         //+++++++++++++++ constructer overloading ++++++++ bcoz we have default and arguments both constructers.
