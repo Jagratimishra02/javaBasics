@@ -1,3 +1,5 @@
+// constructer is a type of method with the help of constructers we can directly pass the values diectly  during the 
+// object initialisation .
 public class Constructer {
     public static class car{
         int seats;
