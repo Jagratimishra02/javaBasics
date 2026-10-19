@@ -1,5 +1,5 @@
 class Cricketers{
-    final String country = "India";  // this value is final and cannot be changed.
+    static final String country = "India";  // this value is final cannot be changed and common for all so we can use nd final both.
     int runs;
     static String name = "Krapansh";   // static means sharable.
     double average;
