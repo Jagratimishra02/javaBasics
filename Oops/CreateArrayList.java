@@ -19,28 +19,28 @@ class ArrList{
         idx--; 
         size--;
         }
-    void remove (int idx){                   // to remove elements
+    void remove (int idx){                   // to remove elements.
         if(idx == arr.length) removeFromEnd();
         for(int i = idx ; i < size-1 ;i++){
             arr[i] = arr[idx+1];
         } 
         size--;      
      }
-    void insert(int num,int idx){
+    void insert(int num,int idx){                       // to insert element 
         if (size == arr.length){
-            capacityincrease();
+            capacityincrease();            // if array list is full increase size
         }
-        for(int i = size; idx < i ;i--){
-            arr[i] = arr[i-1];
+        for(int i = size; idx < i ;i--){      // last element = size -1 , so start with size in order to shift .
+            arr[i] = arr[i-1];               // shift the elements towards right 
         } 
-        arr[idx] = num;
+        arr[idx] = num;   // element inserted at correct place
         size++;      
      }
     void add(int ele){
         if(idx == arr.length) {
-            capacityincrease();
+            capacityincrease();       // if array is full increase capacity.
         }
-        arr[idx++] = ele;
+        arr[idx++] = ele;           
         size++;
     }
     int get(int index){
