@@ -4,6 +4,7 @@ class Fraction{
     Fraction(int num , int deno){
         this.num = num;
         this.deno = deno;
+        simplify();
     }
     void print(){
         System.out.println(num + "/" + deno);  
@@ -11,14 +12,26 @@ class Fraction{
     void add(Fraction f){
         num = num * f.deno + f.num * deno ;     // 3 * 2 + 4 * 5 = 26
         deno = deno * f.deno;                   //   5 * 2 = 10 
+        simplify();
     }
     void mul(Fraction f){
         num *= f.num ;                  // 3 * 4  = 12
         deno *= f.deno;                   //   5 * 2 = 10 
+        simplify();
     }
     void divide(Fraction f){
         num = num*f.deno;
-        deno = deno*f.num;
+        deno = deno*f.num;               // divide
+        simplify();
+    }
+    int hcf(int a,int b){
+        if(a==0) return b;           // it takes the hcf
+        return hcf(b%a, a);
+    }
+    void simplify(){       // it simply the fraction into simplest form
+        int d = hcf(num, deno);
+        num = num /d;
+        deno = deno/d;
     }
 }
 public class FractionClass {
