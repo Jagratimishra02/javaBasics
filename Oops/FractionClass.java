@@ -29,16 +29,13 @@ class Fraction{
         return hcf(b%a, a);
     }
     void simplify(){                // it simply the fraction into simplest form
-        boolean isNegative = (num*deno) < 0 ? true : false;
+        boolean isNegative = (num*deno) < 0 ? true : false;    // to handle neg deno case.
         int d = hcf(num, deno);
-        num = Math.abs(num);
-        deno = Math.abs(deno);
+        num = Math.abs(num);    // to make positive
+        deno = Math.abs(deno);  // to make positive
         num = num /d;
         deno = deno/d;
-        if(isNegative) {
-         num = -num;  
-         deno = deno; 
-        }
+        if(isNegative)  num = -num;  
     }
 }
 public class FractionClass {
