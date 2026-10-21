@@ -28,17 +28,24 @@ class Fraction{
         if(a==0) return b;           // it takes the hcf
         return hcf(b%a, a);
     }
-    void simplify(){       // it simply the fraction into simplest form
+    void simplify(){                // it simply the fraction into simplest form
+        boolean isNegative = (num*deno) < 0 ? true : false;
         int d = hcf(num, deno);
+        num = Math.abs(num);
+        deno = Math.abs(deno);
         num = num /d;
         deno = deno/d;
+        if(isNegative) {
+         num = -num;  
+         deno = deno; 
+        }
     }
 }
 public class FractionClass {
     public static void main(String[] args) {
         Fraction f1 = new Fraction(4, 2);
         f1.print();
-        Fraction f2 = new Fraction(3, 5);
+        Fraction f2 = new Fraction(3, -5);
         // f2.add(f1);  f2.print();      // 26/10
         // f2.mul(f1);  f2.print();         // 12/10 
         f2.divide(f1); f2.print();
