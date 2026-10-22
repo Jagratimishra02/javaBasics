@@ -7,6 +7,7 @@ class node{
     }
 }
 public class NodesOfLinkedlist {
+    // 10->20->30->40->50   linked list means next element (is connected)has address of previous one 
     public static void main(String[] args) {
         node a = new node(10);   
         node b = new node(20);
