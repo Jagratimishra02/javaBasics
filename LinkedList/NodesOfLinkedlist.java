@@ -1,4 +1,7 @@
 package LinkedList;
+
+import java.util.Scanner;
+
 class node{
     int val;
     node next;         // default value is null
@@ -24,7 +27,8 @@ public class NodesOfLinkedlist {
 }
     // 10->20->30->40->50   linked list means next element (is connected)has address of previous one 
     public static void main(String[] args) {
-        node a = new node(10);           // headnode
+        Scanner sc = new Scanner(System.in);
+        node a = new node(sc.nextInt());           // headnode
         node b = new node(20);
         node c = new node(30);
         node d = new node(40);
