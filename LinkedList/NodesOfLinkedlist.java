@@ -11,6 +11,12 @@ class node{
 } 
 
 public class NodesOfLinkedlist {
+     public static void displayrec(node head){
+          // by using recursion
+        if(head == null) return;
+        System.out.print(head.val);
+        displayrec(head.next);
+    }
     public static void display(node head){
     // node temp = head ;
     // while(temp != null){
@@ -28,7 +34,8 @@ public class NodesOfLinkedlist {
     // 10->20->30->40->50   linked list means next element (is connected)has address of previous one 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        node a = new node(sc.nextInt());           // headnode
+        // node a = new node(sc.nextInt());           // headnode
+        node a = new node(5);           // headnode
         node b = new node(20);
         node c = new node(30);
         node d = new node(40);
@@ -50,5 +57,6 @@ public class NodesOfLinkedlist {
 
         System.out.println(a.next.next.next.val);            // d.val = 40 
         display(a);
+        displayrec(b);
     }
 }
