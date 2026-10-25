@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class node{
     int val;
-    node next;         // default value is null
+    node next;            // default value is null
     node(int val){
         this.val = val;
     }
@@ -14,8 +14,9 @@ public class NodesOfLinkedlist {
      public static void displayrec(node head){
           // by using recursion
         if(head == null) return;
-        System.out.print(head.val);
+        System.out.print(head.val + " ");        // to display linkedlist .
         displayrec(head.next);
+        System.out.print(head.val + " ");        // reversed code . 
     }
     public static void display(node head){
     // node temp = head ;
@@ -58,5 +59,10 @@ public class NodesOfLinkedlist {
         System.out.println(a.next.next.next.val);            // d.val = 40 
         display(a);
         displayrec(b);
+
+        node n = null;
+        // n.value = 8;        null cant have value
+        // System.out.println(n.val);         //    java.lang.NullPointerException:
+        // System.out.println(n.next);   // null does n't have next value.
     }
 }
