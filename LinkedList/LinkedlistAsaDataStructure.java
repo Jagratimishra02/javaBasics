@@ -1,3 +1,4 @@
+// Linked list as a data structure .
 package LinkedList;
 class node{
     int val;
@@ -7,7 +8,7 @@ class node{
     }
 } 
 class linkedlist{
-    
+
 }
 public class LinkedlistAsaDataStructure {
   public static void main(String[] args) {
