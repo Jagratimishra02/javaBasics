@@ -18,6 +18,13 @@ public class NodesOfLinkedlist {
         displayrec(head.next);
         System.out.print(head.val + " ");        // reversed code . 
     }
+    public static int get(node head,int idx){
+        node temp = head;
+        for(int i = 0 ; i < idx ; i++){
+            temp = head.next;
+        }
+        return temp.val;
+    }
     public static void display(node head){
     // node temp = head ;
     // while(temp != null){
@@ -64,5 +71,6 @@ public class NodesOfLinkedlist {
         // n.value = 8;        null cant have value
         // System.out.println(n.val);         //    java.lang.NullPointerException:
         // System.out.println(n.next);   // null does n't have next value.
+        System.out.println(get(a,2));
     }
 }
