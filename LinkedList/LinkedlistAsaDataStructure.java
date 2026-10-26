@@ -8,10 +8,55 @@ class node{
     }
 } 
 class linkedlist{
-
+     node head;         //null
+     node tail;         //null
+      void addattail(int  val){
+        node temp = new node(val);
+        if(tail == null) head= tail=temp;
+        else{
+           tail.next = temp;
+           tail = temp;  
+        }
+     }
+     void addathead(int val){
+      node temp = new node(val);
+      if(head == null) head = tail = temp;
+      else{
+        temp.next = head;
+        head = temp;
+       }
+     }
+     void display(){
+      node temp = head;
+      if(head == null) return ;
+      while(temp != null){
+         System.out.print(temp.val + " ");
+         temp = temp.next;
+      }
+      System.out.println();
+     }
+    void deleteathead(){
+      if(head == null) {
+         System.out.println("Array is empty");
+         return ;
+      }else{
+       node temp = head;
+       head = temp.next;
+       if(temp == null)  tail = null;
+      }
+    }
 }
 public class LinkedlistAsaDataStructure {
   public static void main(String[] args) {
-    
+    linkedlist ll = new linkedlist();
+    ll.addattail(2);
+    ll.addattail(10);
+    ll.addattail(20);
+    ll.addattail(50);
+    ll.addattail(60);
+    ll.display();
+    ll.addathead(22); ll.display();
+    ll.addattail(2); ll.display();
+    ll.deleteathead(); ll.display();
   }  
 }
