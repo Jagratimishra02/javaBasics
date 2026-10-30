@@ -10,7 +10,7 @@ class node{
 class linkedlist{
      node head;         //null
      node tail;         //null
-      void addattail(int  val){
+      void addattail(int  val){     // time complexity = O(n) , space complexity = O(n).
         node temp = new node(val);
         if(tail == null) head= tail=temp;
         else{
@@ -18,7 +18,7 @@ class linkedlist{
            tail = temp;  
         }
      }
-     void addathead(int val){
+     void addathead(int val){    // time complexity = O(n) , space complexity = O(n).
       node temp = new node(val);
       if(head == null) head = tail = temp;
       else{
@@ -26,7 +26,7 @@ class linkedlist{
         head = temp;
        }
      }
-     void display(){
+     void display(){      // time complexity = O(n) , space complexity = O(n).
       node temp = head;
       if(head == null) return ;
       while(temp != null){
@@ -35,7 +35,7 @@ class linkedlist{
       }
       System.out.println();
      }
-    void deleteathead(){
+    void deleteathead(){       // time complexity = O(n) , space complexity = O(n).
       if(head == null) {
          System.out.println("Array is empty");
          return ;
