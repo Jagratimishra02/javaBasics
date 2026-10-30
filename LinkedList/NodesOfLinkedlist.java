@@ -2,14 +2,13 @@ package LinkedList;
 
 import java.util.Scanner;
 
-class node{
-    int val;
-    node next;            // default value is null
-    int size;
-    node(int val){
-        this.val = val;
-    }
-} 
+// class node{      //
+//     int val;
+//     node next;            // default value is null
+//     node(int val){
+//         this.val = val;
+//     }
+// } 
 
 public class NodesOfLinkedlist {
      public static void displayrec(node head){

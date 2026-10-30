@@ -11,6 +11,18 @@ class linkedlist{
      node head;         //null
      node tail;         //null
      int size;
+
+     int search(int val){           //Time complexity: O(n) (worst case) ,Space complexity: O(1)
+      node temp = head;
+      if(head == null) return -1;
+        int idx = 0 ;
+        while(temp != null){
+          if(temp.val == val) return idx;
+          temp = temp.next;
+          idx++;
+        }
+        return -1;
+     }
       void addattail(int  val){     // time complexity = O(n) , space complexity = O(n).
         node temp = new node(val);
         if(tail == null) head= tail=temp;
@@ -62,5 +74,6 @@ public class LinkedlistAsaDataStructure {
     ll.addathead(22); ll.display();
     ll.addattail(2); ll.display();
     ll.deleteathead(); ll.display();
+    System.out.println(ll.search(50));
   }  
 }
