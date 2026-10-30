@@ -5,6 +5,7 @@ import java.util.Scanner;
 class node{
     int val;
     node next;            // default value is null
+    int size;
     node(int val){
         this.val = val;
     }

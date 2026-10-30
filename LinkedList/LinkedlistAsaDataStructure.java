@@ -10,6 +10,7 @@ class node{
 class linkedlist{
      node head;         //null
      node tail;         //null
+     int size;
       void addattail(int  val){     // time complexity = O(n) , space complexity = O(n).
         node temp = new node(val);
         if(tail == null) head= tail=temp;
@@ -17,6 +18,7 @@ class linkedlist{
            tail.next = temp;
            tail = temp;  
         }
+        size++;
      }
      void addathead(int val){    // time complexity = O(n) , space complexity = O(n).
       node temp = new node(val);
@@ -25,6 +27,7 @@ class linkedlist{
         temp.next = head;
         head = temp;
        }
+       size++;
      }
      void display(){      // time complexity = O(n) , space complexity = O(n).
       node temp = head;
@@ -44,6 +47,7 @@ class linkedlist{
        head = temp.next;
        if(temp == null)  tail = null;
       }
+      size--;
     }
 }
 public class LinkedlistAsaDataStructure {
