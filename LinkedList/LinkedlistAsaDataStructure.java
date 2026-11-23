@@ -25,14 +25,25 @@ class linkedlist{
      }
      void insert(int val, int idx){
       if(idx < 0 || idx>size){
-         System.out.println("inavlid syntax");
+         System.out.println("invalid syntax");
          return;
       }
       if(idx == 0){
         addathead(val);
-      } else if(idx == size){
+        return;
+      } else if(idx== size){
         addattail(val);
-      }
+        return;
+      }else{
+        node temp = head;
+        for(int i = 1 ; i <= idx-1; i++){
+          temp = temp.next;
+        }
+        node n = new node(val);
+        n.next = temp.next;
+        temp.next = n;
+        size++;
+       }
      }
       void addattail(int  val){     // time complexity = O(n) , space complexity = O(n).
         node temp = new node(val);
@@ -86,6 +97,6 @@ public class LinkedlistAsaDataStructure {
     ll.addattail(2); ll.display();
     ll.deleteathead(); ll.display();
     System.out.println(ll.search(50));
-    ll.insert(4,2);
+    ll.insert(4,2); ll.display();
   }  
 }
